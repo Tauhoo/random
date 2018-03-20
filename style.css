@@ -1,0 +1,224 @@
+body {
+    background-image: url("https://media-minecraftforum.cursecdn.com/attachments/101/347/635644316124413786.png");
+    background-size: cover;
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+  opacity: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 2.5px;
+  border: none;
+}
+
+.font {
+  font-family: 'Raleway';
+  font-weight: lighter;
+  overflow-wrap: break-word;
+}
+
+.border-circular {
+  border-radius: 10px;
+  border: none;
+}
+
+.notice {
+  height: 100vh;
+  width: 15vw;
+  position: absolute;
+  left: 85vw;
+  top: 0px;
+  z-index: 1000;
+  display: none;
+}
+
+.notice div {
+  background-color: #e74c3c;
+  margin-top: 20px;
+  padding: 10px;
+  color: white;
+}
+
+.reward {
+  height: 30vw;
+  width: 30vw;
+  background-color: black;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50vh;
+  left: 50vw;
+  z-index: 1000;
+  border-radius: 20px;
+  border: none;
+  display: none;
+}
+
+.reward img {
+  height: 25vw;
+  width: 25vw;
+  transform: translate(-50%,-50%);
+  margin-left: 15vw;
+  margin-top: 15vw;
+  border-radius: 20px;
+  border: none;
+}
+.reward-background {
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  z-index: 999;
+  left: 0px;
+  top: 0px;
+  opacity: 0.5;
+  position: absolute;
+  display: none;
+}
+.side-bar {
+  height: 100vh;
+  width: 26vw;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: black;
+  padding-top: 30px;
+}
+
+.topic {
+  font-family: 'Raleway';
+  color: white;
+  font-size: 3vw;
+  margin-left: 20px;
+  font-weight: lighter;
+}
+
+.detail {
+  font-family: 'Raleway';
+  color: white;
+  font-size: 1vw;
+  margin-left: 20px;
+  font-weight: lighter;
+  overflow-wrap: break-word;
+  margin-right: 20px;
+}
+
+.profile {
+  background-color: #222f3e;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px 20px 20px 20px;
+  height: 6vw;
+}
+
+.picture {
+  height: 6vw;
+  width: 6vw;
+  background-size: cover;
+  background-color: black;
+  display: inline-block;
+  float: left;
+}
+
+.profile-detail {
+  height: 6vw;
+  float: left;
+}
+
+.profile-detail div {
+  font-size: 1.6vw;
+  font-family: 'Raleway';
+  color: white;
+  font-weight: lighter;
+  overflow-wrap: break-word;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.random-button {
+  margin-left: 50%;
+  transform: translate(-50%);
+  font-size: 1.2vw;
+  color: black;
+  width: 90%;
+  margin-top: 30px;
+  padding: 10px;
+  outline: none;
+}
+
+.body {
+  width: 65vw;
+  transform: translateX(-50%);
+  margin-left: 63vw;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.roulette {
+  position: absolute;
+  height: 15vw;
+  width: 100%;
+  background-color: black;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  overflow: hidden;
+}
+
+.line {
+  position: absolute;
+  height: 100%;
+  width: 7px;
+  background-color: yellow;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 0px;
+  z-index: 1000;
+}
+
+.item-container {
+  position: absolute;
+  height: 15vw;
+  z-index: 999;
+}
+
+.item-container div{
+  height: 15vw;
+  width: 15vw;
+  margin-left: 2vw;
+  background-color: white;
+  background-size: cover;
+  display: inline-block;
+}
+
+.item-list {
+  position: absolute;
+  top: 20.5vw;
+  width: 100%;
+  background-color: black;
+  z-index: 0;
+}
+
+.item-list-container {
+  width: 100%;
+}
+
+.item-list-container div {
+  height: 10vw;
+  width: 10vw;
+  margin-left: 2.5vw;
+  margin-bottom: 2.5vw;
+  background-color: white;
+  background-size: cover;
+  float: left;
+}
